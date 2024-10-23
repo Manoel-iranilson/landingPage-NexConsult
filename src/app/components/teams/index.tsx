@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa"; // Importe o ícone do WhatsApp
 
 export default function Teams() {
   return (
-    <section className="flex flex-col items-center gap-10 py-10 text-white">
+    <section className="flex flex-col items-center gap-10 py-20 text-white">
       <h1 className="text-4xl">Equipe</h1>
       <div className="flex flex-col md:flex-row gap-10 md:gap-40">
         <div className="flex flex-col justify-center items-center">

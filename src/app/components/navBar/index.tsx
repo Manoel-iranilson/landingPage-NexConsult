@@ -3,8 +3,8 @@ import { FaInstagram } from "react-icons/fa"; // Importe o ícone do Instagram
 
 export default function NavBar() {
   return (
-    <div className="h-28 bg-black p-10">
-      <header className="flex justify-between items-center pb-8">
+    <div className="h-28 bg-black w-full flex items-center justify-center">
+      <header className="w-full max-w-7xl flex justify-between items-center px-10">
         <div className="text-white font-bold text-3xl">
           <span className="text-green-600">nex</span>consult
         </div>
