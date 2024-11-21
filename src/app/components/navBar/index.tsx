@@ -9,7 +9,7 @@ export default function NavBar() {
       <header className="w-full max-w-7xl flex flex-col lg:flex-row gap-4 justify-between items-center px-10 py-4 text-white">
         <div className="flex flex-row gap-36 items-center ">
           <Image src={logo} alt="Logo da NexConsult" className="w-40 " />
-          <div className="hidden lg:flex gap-4">
+          <div className="hidden lg:flex gap-4 mt-4">
             <Link href="/">Soluções</Link>
             <Link href="/">Sobre nós</Link>
           </div>

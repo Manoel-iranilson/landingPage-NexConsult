@@ -5,9 +5,13 @@ import Link from "next/link";
 
 export default function Consultant() {
   return (
-    <div className="bg-white w-full">
-      <section className="max-w-7xl w-full p-10 flex flex-col lg:flex-row">
-        <Image src={consult} alt="mulher de oculos trabalhando no notebook" />
+    <div className="bg-white w-full flex items-center justify-center">
+      <section className="max-w-7xl w-full h-full p-10 flex flex-col  lg:flex-row">
+        <Image
+          src={consult}
+          alt="mulher de oculos trabalhando no notebook"
+          className="h-full"
+        />
         <section className="bg-green-600 h-full rounded-3xl p-10 text-white">
           <div className="border-b-4 pb-8 ">
             <h2>PARA CONSULTORES</h2>
@@ -20,14 +24,14 @@ export default function Consultant() {
             </h2>
           </div>
           <div className="flex flex-col lg:flex-row mt-4">
-            <div className="lg:w-1/2 flex flex-col gap-4 text-xl">
+            <div className="lg:w-[60%] flex flex-col gap-4 text-xl text-justify">
               <li>
                 Encontre oportunidades para estágio da sua carreira de consulto
               </li>
               <li>Controle quando, onde e como vai trabalhar</li>
               <li>Explore diferentes maneiras de ganhar</li>
             </div>
-            <div className="lg:w-1/2 flex justify-center items-center lg:my-0 mt-4">
+            <div className="lg:w-[40%] flex justify-center items-center lg:my-0 mt-4">
               <button className=" bg-white rounded-3xl text-center font-bold px-6 py-2 text-lg text-green-600">
                 <Link href="/cadastro">Encontrar projetos</Link>
               </button>

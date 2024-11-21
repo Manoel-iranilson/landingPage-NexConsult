@@ -5,7 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa"; // Importe o ícone do Instagram
 
 export default function Footer() {
   return (
-    <footer className="bg-green-600 w-full">
+    <footer className="bg-green-600 w-full flex items-center justify-center">
       <section className="max-w-7xl w-full p-10 flex flex-col lg:flex-row justify-between text-white gap-10">
         <div className=" w-full lg:w-1/2 text-lg">
           <h1 className="font-bold  mb-4">O QUE É A NEXCONSULT?</h1>
