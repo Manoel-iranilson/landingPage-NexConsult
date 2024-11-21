@@ -2,16 +2,11 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import NavBar from "./components/navBar";
+import Footer from "./components/footer";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const fontPoppins = localFont({
+  src: "./fonts/Poppins-Regular.ttf",
+  variable: "--font-poppins", // Define a variável CSS
 });
 
 export const metadata: Metadata = {
@@ -28,12 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} bg-black w-full h-full`}
-      >
+      <body className={`${fontPoppins.className}  w-full h-full  `}>
         <NavBar />
         {children}
-        <NavBar />
+        <Footer />
       </body>
     </html>
   );

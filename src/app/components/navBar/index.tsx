@@ -1,37 +1,23 @@
+import Image from "next/image";
 import React from "react";
-import { FaInstagram } from "react-icons/fa"; // Importe o ícone do Instagram
+import logo from "@public/logo.png";
+import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <div className="h-28 bg-black w-full flex items-center justify-center">
-      <header className="w-full max-w-7xl flex justify-between items-center px-10">
-        <div className="text-white font-bold text-3xl">
-          <span className="text-green-600">nex</span>consult
+    <div className=" bg-black w-full  flex items-center justify-center">
+      <header className="w-full max-w-7xl flex flex-col lg:flex-row gap-4 justify-between items-center px-10 py-4 text-white">
+        <div className="flex flex-row gap-36 items-center ">
+          <Image src={logo} alt="Logo da NexConsult" className="w-40 " />
+          <div className="hidden lg:flex gap-4">
+            <Link href="/">Soluções</Link>
+            <Link href="/">Sobre nós</Link>
+          </div>
         </div>
-        <div className="flex items-center space-x-4">
-          <a
-            href="https://www.instagram.com/nexconsultof?igsh=cnp3b3kwc2t5Nnd5"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white hover:text-green-500"
-          >
-            <FaInstagram className="text-3xl" />
-          </a>
-          {/* Você pode descomentar o nav e o botão se necessário */}
-          {/* <nav className="flex space-x-8 text-white">
-            <a href="#" className="hover:text-green-500">
-              Benefícios
-            </a>
-            <a href="#" className="hover:text-green-500">
-              Preço
-            </a>
-            <a href="#" className="hover:text-green-500">
-              Como funciona
-            </a>
-          </nav>
-          <button className="bg-green-600 hover:bg-green-500 text-white px-4 py-2 rounded-lg">
-            Sign up ➜
-          </button> */}
+        <div>
+          <button className="px-10 py-2 rounded-3xl font-bold bg-green-500">
+            Login
+          </button>
         </div>
       </header>
     </div>
