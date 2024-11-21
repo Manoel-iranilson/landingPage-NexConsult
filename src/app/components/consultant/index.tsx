@@ -24,9 +24,9 @@ export default function Consultant() {
             </h2>
           </div>
           <div className="flex flex-col lg:flex-row mt-4">
-            <div className="lg:w-[60%] flex flex-col gap-4 text-xl text-justify">
+            <div className="lg:w-[60%] flex flex-col gap-4 text-xl">
               <li>
-                Encontre oportunidades para estágio da sua carreira de consulto
+                Encontre oportunidades para estágio da sua carreira de consultor
               </li>
               <li>Controle quando, onde e como vai trabalhar</li>
               <li>Explore diferentes maneiras de ganhar</li>

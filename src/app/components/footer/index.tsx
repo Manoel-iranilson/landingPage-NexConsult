@@ -14,6 +14,9 @@ export default function Footer() {
             encontro de profissionais pelas empresas e ajudar os consultores com
             a prospecção, construção de credibilidade e precificação.
           </p>
+          <p className="text-sm mt-4">
+            Nexconsult Inova Simples CNPJ:58.054.307/0001-55
+          </p>
         </div>
         <div className="flex flex-col  gap-2">
           <h1 className="text-lg font-bold">NEXCONSULT</h1>
