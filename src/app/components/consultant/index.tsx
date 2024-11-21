@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import consult from "@public/consultant.png";
+import Link from "next/link";
 
 export default function Consultant() {
   return (
@@ -28,7 +29,7 @@ export default function Consultant() {
             </div>
             <div className="lg:w-1/2 flex justify-center items-center lg:my-0 mt-4">
               <button className=" bg-white rounded-3xl text-center font-bold px-6 py-2 text-lg text-green-600">
-                Encontrar projetos
+                <Link href="/cadastro">Encontrar projetos</Link>
               </button>
             </div>
           </div>

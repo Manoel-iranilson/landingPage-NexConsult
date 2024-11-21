@@ -12,7 +12,7 @@ export default function Principal() {
             Consultores e Empresas se
             <span className="text-green-600"> Conectam.</span>
           </h1>
-          <p className="text-lg w-full mt-4 text-gray-400">
+          <p className="text-lg w-full mt-4 text-gray-400 text-center">
             A Nexconsult conecta consultores e empresas, para facilitar o
             encontro de profissionais pelas empresas e ajudar os consultores com
             a prospecção, construção de credibilidade e precificação.
@@ -20,7 +20,7 @@ export default function Principal() {
         </section>
         <section className="md:w-1/2  flex flex-col justify-center items-center">
           <Image src={home} alt="Imagem de consultoria" className="size-96" />
-          <div className="flex gap-4 w-full px-12 mt-6">
+          <div className="flex flex-col lg:flex-row gap-4 w-full px-12 mt-6">
             <button className="bg-green-600 w-full py-3 rounded-3xl  font-bold">
               <Link href="/cadastro">Encontrar consultores</Link>
             </button>

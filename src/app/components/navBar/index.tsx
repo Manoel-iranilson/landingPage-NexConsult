@@ -15,8 +15,8 @@ export default function NavBar() {
           </div>
         </div>
         <div>
-          <button className="px-10 py-2 rounded-3xl font-bold bg-green-500">
-            Login
+          <button className="hidden lg:block px-10 py-2 rounded-3xl font-bold bg-green-500">
+            <Link href="/cadastro">Login</Link>
           </button>
         </div>
       </header>

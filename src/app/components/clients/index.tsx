@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import clients from "@public/clients.png";
+import Link from "next/link";
 
 export default function Clients() {
   return (
@@ -25,7 +26,7 @@ export default function Clients() {
           <div className="lg:absolute text-white font-bold text-2xl bottom-0 left-0 lg:w-1/3 bg-green-600 rounded-2xl p-4 text-center">
             Faça seu pré diagnóstico e encontre o profissional Ideal
             <button className="bg-white text-lg ml-4 px-3 py-2 rounded-3xl mt-2 text-green-600">
-              Encontrar consultores
+              <Link href="/cadastro">Encontrar consultores</Link>
             </button>
           </div>
         </section>
