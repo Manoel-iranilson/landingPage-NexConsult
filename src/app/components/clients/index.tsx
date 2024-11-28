@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Clients() {
   return (
-    <div className="bg-white w-full  flex items-center justify-center ">
+    <div className="bg-white w-full lg:h-screen flex items-center justify-center ">
       <div className="max-w-7xl h-full lg:h-screen  w-full p-10 flex flex-col lg:flex-row gap-2 justify-center py-10">
         <section className="w-full lg:w-1/4 flex flex-col gap-14">
           <h2 className="text-green-600 text-3xl">PARA CLIENTES</h2>

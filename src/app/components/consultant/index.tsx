@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Consultant() {
   return (
-    <div className="bg-white w-full flex items-center justify-center">
+    <div className="bg-white w-full lg:h-screen flex items-center justify-center">
       <section className="max-w-7xl w-full h-full p-10 flex flex-col  lg:flex-row">
         <Image
           src={consult}
