@@ -10,7 +10,7 @@ const fontPoppins = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "NexConsult",
+  title: "Nexconsult",
   icons: {
     icon: "/miniLogo.png",
   },
